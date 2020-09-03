@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.embuary-leia-moddedByRadioKoch" version="18.8.9" name="Embuary (Leia) modded by Radio Koch" provider-name="Radio Koch">
+<addon id="skin.embuary-matrix-moddedByRadioKoch" version="19.0.0" name="Embuary (Matrix) modded by Radio Koch" provider-name="Radio Koch">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.embuary.helper" version="1.3.6"/>
