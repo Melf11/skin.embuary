@@ -98,7 +98,7 @@
 			<param name="id">10</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel"/>
+		<!-- <include content="SidePanel"/> -->
 	</include>
 
 	<!-- Movie template -->
@@ -178,7 +178,7 @@
 			<param name="id">10</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel"/>
+		<!-- <include content="SidePanel"/> -->
 	</include>
 
 	<!-- TV show template -->
@@ -248,6 +248,6 @@
 			<param name="id">10</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel"/>
+		<!-- <include content="SidePanel"/> -->
 	</include>
 </includes>

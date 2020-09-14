@@ -179,6 +179,6 @@
 			<param name="visible" value="![!Container(100).IsUpdating + !Container(101).IsUpdating + !Container(102).IsUpdating + !Container(103).IsUpdating + !Container(104).IsUpdating + !Container(105).IsUpdating + !Container(106).IsUpdating + !Container(107).IsUpdating + !Container(108).IsUpdating + !Container(109).IsUpdating] | !String.IsEmpty(Window(home).Property(ForceFocusReset))"/>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel"/>
+		<!-- <include content="SidePanel"/> -->
 	</controls>
 </window>

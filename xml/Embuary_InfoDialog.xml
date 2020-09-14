@@ -197,11 +197,11 @@
 				<param name="content" value="$VAR[InfoDialog_MoreLikeThis_Content]"/>
 			</include>
 			<!-- Media Info -->
-			<include content="InfoDialogMediaInfo">
-				<param name="id" value="205"/>
-				<param name="onup" value="204"/>
-				<param name="ondown" value="noop"/>
-			</include>
+<!--			<include content="InfoDialogMediaInfo">-->
+<!--				<param name="id" value="205"/>-->
+<!--				<param name="onup" value="204"/>-->
+<!--				<param name="ondown" value="noop"/>-->
+<!--			</include>-->
 		</control>
 		<!-- header bar -->
 		<include content="HeaderBar">
@@ -815,11 +815,11 @@
 				<param name="use_custom_onclick" value="true"/>
 			</include>
 			<!-- Media Info -->
-			<include content="InfoDialogMediaInfo">
-				<param name="id" value="400"/>
-				<param name="onup" value="202"/>
-				<param name="ondown" value="noop"/>
-			</include>
+<!--			<include content="InfoDialogMediaInfo">-->
+<!--				<param name="id" value="400"/>-->
+<!--				<param name="onup" value="202"/>-->
+<!--				<param name="ondown" value="noop"/>-->
+<!--			</include>-->
 		</control>
 		<!-- header bar -->
 		<include content="HeaderBar">

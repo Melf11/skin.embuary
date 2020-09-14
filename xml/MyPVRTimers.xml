@@ -83,8 +83,8 @@
 			<param name="hide_header">$EXP[HideHeaderBasedOnContainer]</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">53</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">53</param>-->
+<!--		</include>-->
 	</controls>
 </window>

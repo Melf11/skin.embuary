@@ -227,45 +227,45 @@
 						</include>
 						<label>$INFO[System.Time]</label>
 					</control>
-					<control type="group">
-						<visible>!Window.IsVisible(loginscreen)</visible>
-						<animation effect="slide" end="0,10" time="0" condition="true">Conditional</animation>
-						<height>38</height>
-						<width>38</width>
-						<control type="group">
-							<visible>String.IsEmpty(Window(Home).Property(emby_sync))</visible>
-							<control type="image">
-								<height>38</height>
-								<width>38</width>
-								<texture colordiffuse="thumb_background_fallback_secondary">common/avatar_diffuse.png</texture>
-							</control>
-							<control type="image">
-								<height>38</height>
-								<width>38</width>
-								<texture diffuse="common/avatar_diffuse.png">$VAR[UserAvatar]</texture>
-								<aspectratio scalediffuse="false">stretch</aspectratio>
-							</control>
-						</control>
-						<control type="group">
-							<visible>!String.IsEmpty(Window(Home).Property(emby_sync))</visible>
-							<control type="image">
-								<height>38</height>
-								<width>38</width>
-								<texture colordiffuse="$VAR[AccentColor]">common/avatar_diffuse.png</texture>
-							</control>
-							<control type="label">
-								<animation effect="fade" start="20" time="1000" condition="true" pulse="true">Conditional</animation>
-								<font>Material24</font>
-								<label>&#xf4e6;</label>
-								<height>38</height>
-								<width>38</width>
-								<align>center</align>
-								<include content="HeaderButton">
-									<param name="color" value="text_white"/>
-								</include>
-							</control>
-						</control>
-					</control>
+<!--					<control type="group">-->
+<!--						<visible>!Window.IsVisible(loginscreen)</visible>-->
+<!--						<animation effect="slide" end="0,10" time="0" condition="true">Conditional</animation>-->
+<!--						<height>38</height>-->
+<!--						<width>38</width>-->
+<!--						<control type="group">-->
+<!--							<visible>String.IsEmpty(Window(Home).Property(emby_sync))</visible>-->
+<!--							<control type="image">-->
+<!--								<height>38</height>-->
+<!--								<width>38</width>-->
+<!--								<texture colordiffuse="thumb_background_fallback_secondary">common/avatar_diffuse.png</texture>-->
+<!--							</control>-->
+<!--							<control type="image">-->
+<!--								<height>38</height>-->
+<!--								<width>38</width>-->
+<!--								<texture diffuse="common/avatar_diffuse.png">$VAR[UserAvatar]</texture>-->
+<!--								<aspectratio scalediffuse="false">stretch</aspectratio>-->
+<!--							</control>-->
+<!--						</control>-->
+<!--						<control type="group">-->
+<!--							<visible>!String.IsEmpty(Window(Home).Property(emby_sync))</visible>-->
+<!--							<control type="image">-->
+<!--								<height>38</height>-->
+<!--								<width>38</width>-->
+<!--								<texture colordiffuse="$VAR[AccentColor]">common/avatar_diffuse.png</texture>-->
+<!--							</control>-->
+<!--							<control type="label">-->
+<!--								<animation effect="fade" start="20" time="1000" condition="true" pulse="true">Conditional</animation>-->
+<!--								<font>Material24</font>-->
+<!--								<label>&#xf4e6;</label>-->
+<!--								<height>38</height>-->
+<!--								<width>38</width>-->
+<!--								<align>center</align>-->
+<!--								<include content="HeaderButton">-->
+<!--									<param name="color" value="text_white"/>-->
+<!--								</include>-->
+<!--							</control>-->
+<!--						</control>-->
+<!--					</control>-->
 				</control>
 			</control>
 			<!-- Currently playing -->

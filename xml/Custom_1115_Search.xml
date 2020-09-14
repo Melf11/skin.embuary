@@ -303,6 +303,6 @@
 			<param name="visible" value="[$EXP[IsSearching] | [!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))]] + !Window.IsVisible(virtualkeyboard)"/>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel"/>
+<!-- <include content="SidePanel"/> -->
 	</controls>
 </window>

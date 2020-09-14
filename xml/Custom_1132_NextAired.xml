@@ -83,7 +83,7 @@
 			<param name="id">10</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel"/>
+		<!-- <include content="SidePanel"/> -->
 		<!-- busy spinner
 		<include content="CustomBusySpinner">
 			<param name="diffuse" value="false"/>
