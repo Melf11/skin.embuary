@@ -205,8 +205,8 @@
 			<param name="header_label">TMDb - $INFO[Container(10051).ListItem.Label]</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">50</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">50</param>-->
+<!--		</include>-->
 	</controls>
 </window>

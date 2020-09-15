@@ -29,9 +29,9 @@
 				<param name="hide_header">Integer.IsGreaterOrEqual(Container(50).NumItems,8) + [Integer.IsGreaterOrEqual(Container(50).CurrentItem,5) | Container(50).HasPrevious]</param>
 			</include>
 			<!-- side panel -->
-			<include content="SidePanel">
-				<param name="onright">50</param>
-			</include>
+<!--			<include content="SidePanel">-->
+<!--				<param name="onright">50</param>-->
+<!--			</include>-->
 		</control>
 	</controls>
 </window>

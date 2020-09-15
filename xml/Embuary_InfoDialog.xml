@@ -208,9 +208,9 @@
 			<param name="id">500</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">500</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">500</param>-->
+<!--		</include>-->
 	</include>
 	<!-- tvshow -->
 	<include name="TVShowInfoLayout">
@@ -533,9 +533,9 @@
 			<param name="id">500</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">500</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">500</param>-->
+<!--		</include>-->
 	</include>
 	<!-- episode -->
 	<include name="EpisodeInfoLayout">
@@ -826,9 +826,9 @@
 			<param name="id">500</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">500</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">500</param>-->
+<!--		</include>-->
 	</include>
 	<!-- tiny -->
 	<include name="TinyInfoLayout">
@@ -1124,8 +1124,8 @@
 			<param name="id">500</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">500</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">500</param>-->
+<!--		</include>-->
 	</include>
 </includes>

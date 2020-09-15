@@ -175,8 +175,8 @@
 			<param name="id">100</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">100</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">100</param>-->
+<!--		</include>-->
 	</controls>
 </window>

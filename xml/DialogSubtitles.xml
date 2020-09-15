@@ -230,8 +230,8 @@
 			<param name="auto_hide">false</param>
 		</include>
 		<!-- side panel -->
-		<include content="SidePanel">
-			<param name="onright">150</param>
-		</include>
+<!--		<include content="SidePanel">-->
+<!--			<param name="onright">150</param>-->
+<!--		</include>-->
 	</controls>
 </window>
