@@ -120,14 +120,14 @@
 					<ondown>SetFocus($PARAM[id])</ondown>
 					<onback condition="Window.IsVisible(addonsettings)">1100</onback>
 					<!-- buttons -->
-					<control type="button" id="6668">
-						<font>Material24</font>
-						<include>HeaderButton</include>
-						<label>&#xf349;</label>
-						<include>SearchAction</include>
-						<visible>!Window.IsVisible(loginscreen) + !$EXP[InfoDialogActive]</visible>
-						<visible>!Window.IsVisible(1115)</visible>
-					</control>
+<!--					<control type="button" id="6668">-->
+<!--						<font>Material24</font>-->
+<!--						<include>HeaderButton</include>-->
+<!--						<label>&#xf349;</label>-->
+<!--						<include>SearchAction</include>-->
+<!--						<visible>!Window.IsVisible(loginscreen) + !$EXP[InfoDialogActive]</visible>-->
+<!--						<visible>!Window.IsVisible(1115)</visible>-->
+<!--					</control>-->
 					<control type="button" id="6669">
 						<font>Material24</font>
 						<label>&#xf236;</label>
@@ -560,11 +560,19 @@
 			</visible>
 		</control>
 		<control type="button" id="6601">
+			<font>Material24</font>
 			<include>HeaderButton</include>
-			<label>$LOCALIZE[1036]</label>
-			<onclick>ActivateWindow(favourites)</onclick>
-			<visible>!Window.Is(favourites)</visible>
+			<label>&#xf349;</label>
+			<include>SearchAction</include>
+			<visible>!Window.IsVisible(loginscreen) + !$EXP[InfoDialogActive]</visible>
+			<visible>!Window.IsVisible(1115)</visible>
 		</control>
+<!--		<control type="button" id="6601">-->
+<!--			<include>HeaderButton</include>-->
+<!--			<label>$LOCALIZE[1036]</label>-->
+<!--			<onclick>ActivateWindow(favourites)</onclick>-->
+<!--			<visible>!Window.Is(favourites)</visible>-->
+<!--		</control>-->
 		<control type="button" id="6606">
 			<include>HeaderButton</include>
 			<label>$LOCALIZE[19141]: $INFO[Control.GetLabel(29)]</label>
