@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="1170" type="dialog">
+    <defaultcontrol>117001</defaultcontrol>
+    <include>PropertyIncludes</include>
+
+    <animation effect="fade" start="0" end="100" time="250">WindowOpen</animation>
+    <animation effect="fade" start="100" end="0" time="250">WindowClose</animation>
+
+    <controls>
+        <include>Background</include>
+        <backgroundcolor>accent</backgroundcolor>
+        <include>Window_OpenClose</include>
+
+        <control type="group">
+            <include>Dialog_PopupOpenClose</include>
+            <centerleft>50%</centerleft>
+            <centertop>50%</centertop>
+            <width>33%</width>
+            <animation effect="fade" time="200">VisibleChange</animation>
+            <defaultcontrol>117000</defaultcontrol>
+
+            <control type="grouplist" id="117000">
+                <orientation>vertical</orientation>
+                <align>center</align>
+                <width>100%</width>
+                <itemgap>0</itemgap>
+                <control type="label" id="117099">
+                    <left>30</left>
+                    <right>30</right>
+                    <top>-80</top>
+                    <height>80</height>
+                    <font>font_medium_bold</font>
+                    <align>left</align>
+                    <aligny>center</aligny>
+                    <width>100%</width>
+                    <label>Select Language</label>
+                </control>
+
+                <control type="button" id="117001">
+                    <width>100%</width>
+                    <label>Arabic</label>
+                    <onclick>SetGUILanguage(resource.language.ar_sa)</onclick>
+                </control>
+                <control type="button" id="117002">
+                    <width>100%</width>
+                    <label>German</label>
+                    <onclick>SetGUILanguage(resource.language.de_de)</onclick>
+                </control>
+                <control type="button" id="117003">
+                    <width>100%</width>
+                    <label>English</label>
+                    <onclick>SetGUILanguage(resource.language.en_gb)</onclick>
+                </control>
+                <control type="button" id="117004">
+                    <width>100%</width>
+                    <label>Spanish</label>
+                    <onclick>SetGUILanguage(resource.language.es_es)</onclick>
+                </control>
+                <control type="button" id="117005">
+                    <width>100%</width>
+                    <label>French</label>
+                    <onclick>SetGUILanguage(resource.language.fr_fr)</onclick>
+                </control>
+                <control type="button" id="117006">
+                    <width>100%</width>
+                    <label>Russian</label>
+                    <onclick>SetGUILanguage(resource.language.ru_ru)</onclick>
+                </control>
+            </control>
+        </control>
+    </controls>
+</window>
